@@ -1,0 +1,30 @@
+{
+  "name": "excel-parser",
+  "version": "1.0.0",
+  "description": "Parse an excel sheet and manipulate the data.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanmayBanerjee-23rd/excel-parser.git"
+  },
+  "author": "Tanmay Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanmayBanerjee-23rd/excel-parser/issues"
+  },
+  "homepage": "https://github.com/TanmayBanerjee-23rd/excel-parser#readme",
+  "dependencies": {
+    "node-xlsx": "^0.23.0",
+    "xlsx": "^0.19.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
